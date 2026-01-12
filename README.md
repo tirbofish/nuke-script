@@ -5,7 +5,7 @@ conveient little script to suit to my own customisation on arch linux &amp; wind
 ensure nushell is available and in PATH. 
 
 ```bash
-curl -s https://raw.githubusercontent.com/4tkbytes/nuke-script/main/reinstall.nu | nu
+curl -o /tmp/reinstall.nu https://raw.githubusercontent.com/4tkbytes/nuke-script/main/reinstall.nu && nu /tmp/reinstall.nu
 ```
 to be run on arch linux. anything else and it might break your (linux) system/not work at all. 
 
